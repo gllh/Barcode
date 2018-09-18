@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="fill_parent"
+  android:background="@drawable/mainscreen_bg" android:orientation="vertical"
+  android:gravity="center">
+	  <com.xunfang.Zxing.Demo.ResultWidget android:id="@+id/barcode_result" 
+	  	style="@style/sub_sys_main_item" />
+	  <LinearLayout android:id="@+id/buttons" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:paddingTop="10.0dip">
+		<Button android:id="@+id/barcode_operate" android:layout_width="60.0dip"
+			android:background="@drawable/btn"
+			android:layout_height="wrap_content" android:text="@string/barcode_visit"/>
+		<Button android:id="@+id/barcode_save" android:layout_width="60.0dip"
+			android:layout_height="wrap_content" android:text="@string/barcode_save"
+			android:background="@drawable/btn"/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/barcode_item_row"
+		android:background="@drawable/main_row_stat_normal"
+		android:layout_width="fill_parent"
+		android:layout_height="40.0dip"
+		android:gravity="center_vertical">
+		<TextView 
+			android:id="@+id/barcode_item_value"
+			android:layout_width="160.0dip"
+			android:layout_height="wrap_content"
+			android:paddingLeft="5.0dip"
+			android:layout_alignParentLeft="true"
+			android:textColor="#ff000000"
+			android:ellipsize="end" android:singleLine="true"
+			android:text="http://www.baidu.com"/>
+		<TextView
+			android:id="@+id/barcode_item_savetime"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+			android:paddingRight="5.0dip"
+			android:textColor="#ff000000"
+			android:text="2012-11-02 10:12:23"/>
+	</RelativeLayout>

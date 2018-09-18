@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CaptureActivity!</string>
+    <string name="app_name">条码扫描</string>
+    <string name="barcode_type">条码类型</string>
+    <string name="barcode_content">条码内容</string>
+    <string name="barcode_save">保存</string>
+    <string name="barcode_search">搜索</string>
+    <string name="barcode_visit">访问</string>
+    <string name="result">扫描结果</string>
+    <string name="quit">退出</string>
+    <string name="history">历史记录</string>
+</resources>
